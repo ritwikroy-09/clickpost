@@ -22,7 +22,7 @@ const Login = () => {
 
     try {
       // Send POST request to the backend
-      await axios.post("https://backendclickpost.onrender.com", {
+      await axios.post("https://backendclickpost.onrender.com/api/login", {
         email,
         password,
       });
