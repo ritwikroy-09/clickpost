@@ -30,7 +30,7 @@ const Register = () => {
 
     try {
       // Send POST request to the backend
-      const response = await axios.post("https://backendclickpost.onrender.comapi/register", {
+      const response = await axios.post("https://backendclickpost.onrender.com/api/register", {
         email,
         name,
         password,
